@@ -1,9 +1,9 @@
 
-# Workflow Reference Code
+# OOP Skeleton Code
 
-## Example Class
+## `ExampleClass.java`
 ```java
-// File ExampleClass.java
+// File ExampleClass.java 
 public class ExampleClass 
 {
   // instance variables
@@ -22,7 +22,8 @@ public class ExampleClass
   }
   
   // initialization constructor
-  public ExampleClass(int myInt, String myString, char myChar, boolean myBoolean)
+  public ExampleClass(int myInt, String myString, 
+                      char myChar, boolean myBoolean)
   {
     instanceInt = myInt;
     instanceString = myString;                  
@@ -51,8 +52,9 @@ public class ExampleClass
   }
 }
 ```
+<div class="page"/>
 
-## Example Class Runner
+## `ExampleClassRunner.java`
 ```java
   // File ExampleClassRunner.java
   public class ExampleClassRunner
@@ -79,7 +81,7 @@ public class ExampleClass
   }
 ```
 
-### Output
+## Output
 ```
 Calling object's instanceInt getter: 0
 Calling object's instanceInt setter

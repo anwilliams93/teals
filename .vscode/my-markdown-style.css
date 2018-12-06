@@ -1,0 +1,14 @@
+code {
+	font-size: 10px;
+	line-height: 15px;
+}
+
+body {
+	font-size: 12px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #000000; /* customized value */
+	font-size: inherit;
+}
